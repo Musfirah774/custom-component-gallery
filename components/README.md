@@ -7,8 +7,11 @@ Each folder in this directory represents one submitted component.
 ```
 components/
   your-component-name/
-    metadata.json   — component title, author, repo link, description, and tags
-    cover.png       — screenshot or GIF shown as the card thumbnail on the gallery
+    src/              — component source code
+    package.json      — dependencies and build configuration
+    metadata.json     — component title, author, description, and tags
+    cover.png         — screenshot or GIF shown as the card thumbnail on the gallery
+    README.md         — usage instructions (optional but encouraged)
 ```
 
 See [CONTRIBUTING.md](../CONTRIBUTING.md) for full submission instructions.
